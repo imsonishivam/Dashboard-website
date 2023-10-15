@@ -1,0 +1,12 @@
+@import "./Header.css";
+@import "./Dashboard.css";
+@import "./CardOfOverview.css";
+@import "./Overview.css";
+@import "./CardOfCustomers.css";
+@import "./Product.css";
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}

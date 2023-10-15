@@ -1,0 +1,43 @@
+.overview {
+  width: 70%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  > .overview-heading {
+    display: flex;
+    justify-content: space-between;
+    .first {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      > h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      > p {
+        font-size: 0.9rem;
+        color: rgb(161, 157, 157);
+      }
+    }
+    .second {
+      display: flex;
+      align-items: center;
+      background-color: #f4dbff97;
+      height: fit-content;
+      padding: 0.4rem;
+      border-radius: 10px;
+      color: rgb(134, 134, 134);
+      > span,
+      > svg {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  > .chartOfBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 0 0;
+  }
+}

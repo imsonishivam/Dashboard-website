@@ -1,0 +1,21 @@
+.cardOfOverview {
+  display: flex;
+  flex-direction: column;
+
+  > p {
+    font-size: 0.9rem;
+    color: rgb(161, 157, 157);
+  }
+  > h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  > div {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    > svg {
+      width: 22px;
+    }
+  }
+}

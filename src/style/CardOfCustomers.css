@@ -1,0 +1,23 @@
+.cardOfCustomers {
+  background-color: #fff;
+  width: 30%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  > h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  > p {
+    font-size: 0.9rem;
+    color: rgb(161, 157, 157);
+  }
+  > .pip {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+  }
+}
