@@ -1,0 +1,17 @@
+@media screen and (max-width: 1030px) {
+  .dashboard {
+    height: 300vh;
+    /* > .cartItems > .cartItem {
+      width: 300px;
+      justify-content: center;
+    } */
+  }
+  .overviewAndCustomers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardOfCustomers,
+  .overview {
+    width: 85%;
+  }
+}

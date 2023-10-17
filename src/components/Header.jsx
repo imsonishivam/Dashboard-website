@@ -10,7 +10,7 @@ import { RxAvatar } from "react-icons/rx";
 import { GiReceiveMoney } from "react-icons/gi";
 import { PiHandsPrayingDuotone } from "react-icons/pi";
 import { BiHelpCircle } from "react-icons/bi";
-import { Avatar } from "@mui/material";
+import { Avatar, WrapItem } from "@chakra-ui/react";
 
 const Header = () => {
   const headingItems = {
@@ -48,7 +48,7 @@ const Header = () => {
 
   const [currentHeader, setCurrentHeader] = useState(
     <>
-      <AiOutlineDashboard /> Dashborad
+      <AiOutlineDashboard size={20} /> Dashborad
     </>
   );
   return (
@@ -93,7 +93,15 @@ const Header = () => {
         </Link>
       </div>
       <div className="avatar">
-        <Avatar alt="Eravis Howard" src="/static/images/avatar/2.jpg" />
+        <WrapItem>
+          <Avatar
+            h={40}
+            w={40}
+            borderRadius={"50%"}
+            src="https://bit.ly/dan-abramov"
+          />
+        </WrapItem>
+
         <div>
           <h3>Evano</h3>
           <p>Project Manager</p>

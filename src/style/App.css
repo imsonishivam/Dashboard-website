@@ -4,6 +4,8 @@
 @import "./Overview.css";
 @import "./CardOfCustomers.css";
 @import "./Product.css";
+@import "./ProductSell.css";
+@import "./mediaquery.css";
 
 * {
   margin: 0%;

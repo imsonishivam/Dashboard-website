@@ -9,6 +9,7 @@ import {
 } from "@iconscout/react-unicons";
 import Overview from "./Overview";
 import CardOfCustomers from "./CardOfCustomers";
+import ProductSell from "./ProductSell";
 
 const Dashboard = () => {
   return (
@@ -68,6 +69,8 @@ const Dashboard = () => {
         <Overview />
         <CardOfCustomers />
       </div>
+
+      <ProductSell />
     </div>
   );
 };
