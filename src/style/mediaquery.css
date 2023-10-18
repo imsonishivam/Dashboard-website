@@ -28,15 +28,41 @@
   }
   .dashboard {
     width: 100%;
+    height: max-content;
     padding: 0;
     > header {
       padding: 2rem;
     }
   }
+  .product-sell {
+    margin: 4rem;
+  }
   .overview {
     padding: 0rem;
     .overview-heading {
       padding: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .product-sell {
+    margin: 2rem;
+    > .product-heading {
+      gap: 1rem;
+      flex-direction: column;
+      > h2 {
+        font-size: 1.5rem;
+        gap: 1rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+      > .right-heading {
+        flex-direction: column;
+        > .second {
+          justify-content: space-between;
+        }
+      }
     }
   }
 }

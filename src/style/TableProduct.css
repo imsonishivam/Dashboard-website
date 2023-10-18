@@ -29,6 +29,7 @@ td {
   display: flex;
   gap: 1rem;
   font-family: "Open Sans";
+  align-items: center;
   > img {
     border-radius: 10px;
     width: 70px;
@@ -39,4 +40,12 @@ td {
 .product-description {
   display: flex;
   flex-direction: column !important;
+  > h3 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  > p {
+    color: gray;
+    font-size: 0.89rem;
+  }
 }
