@@ -1,0 +1,42 @@
+.container {
+  overflow-x: auto;
+  padding: 1rem 0;
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  padding: 1rem;
+  color: rgb(161, 157, 157);
+  text-align: left;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+tr:hover {
+  background-color: #f4dbff97;
+}
+
+td {
+  padding: 1rem;
+}
+
+.product-actual-item {
+  display: flex;
+  gap: 1rem;
+  font-family: "Open Sans";
+  > img {
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+  }
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column !important;
+}

@@ -1,6 +1,6 @@
 .product-sell {
   background-color: #fff;
-  margin: 2rem 0;
+  margin: 2rem 1.7rem;
   padding: 1rem 2rem;
   border-radius: 10px;
   > .product-heading {
@@ -52,55 +52,6 @@
           font-size: 0.9rem;
         }
       }
-    }
-  }
-
-  > .product-subheading {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid rgb(230, 230, 230);
-    color: rgb(161, 157, 157);
-    > .product-subheading-right {
-      display: flex;
-      width: 35%;
-      justify-content: space-between;
-    }
-  }
-
-  > .product-actual-item {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    > .img-title {
-      display: flex;
-      > img {
-        width: 70px;
-        height: 40px;
-        border-radius: 10px;
-      }
-      > .title {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1rem;
-        > h4 {
-          font-weight: 600;
-          letter-spacing: 1px;
-        }
-        > p {
-          color: rgb(94, 93, 93);
-        }
-      }
-    }
-
-    > .product-actual-right {
-      display: flex;
-      width: 35%;
-      justify-content: space-between;
-      align-items: center;
     }
   }
 }

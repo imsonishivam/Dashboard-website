@@ -4,6 +4,7 @@ import {
   AiOutlineDashboard,
   AiOutlineDown,
   AiOutlineRight,
+  AiOutlineMenu,
 } from "react-icons/ai";
 import { LiaProductHunt } from "react-icons/lia";
 import { RxAvatar } from "react-icons/rx";
@@ -13,6 +14,14 @@ import { BiHelpCircle } from "react-icons/bi";
 import { Avatar, WrapItem } from "@chakra-ui/react";
 
 const Header = () => {
+  return (
+    <nav>
+      <NavContant />
+    </nav>
+  );
+};
+
+const NavContant = () => {
   const headingItems = {
     forDashboard: (
       <>

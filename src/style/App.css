@@ -6,6 +6,7 @@
 @import "./Product.css";
 @import "./ProductSell.css";
 @import "./mediaquery.css";
+@import "./TableProduct.css";
 
 * {
   margin: 0%;

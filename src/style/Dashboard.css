@@ -3,7 +3,7 @@
   background-color: #f4dbff97;
   width: 84%;
   right: 0;
-  height: 150vh;
+  height: fit-content;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 2rem 3rem;
   > header {
